@@ -51,8 +51,32 @@ The body of the request should look like this:
 
 DOCUMENT FORMAT DESCRIPTION COMES LATER. Until then, we are providing some example JSONs in the jsons folder in this repository. You only need the "document" property from those JSONS and you have to put it to the "document" property of the HTTP POST request. The other way is that you put your apiKey and secret in the JSON's root and you send them together.
 
+The response is a JSON with the following format:
+
+```
+{
+	"status": 200,
+	"result": "The response HTML as a string."
+}
+```
+
+---
+
 For EDMdesigner integrators: You can use the JSON documents fetched from EDMdesigner's API. Similarly, you will only need the "document" property from those JSONs. We are going to direct the traffic from the original generator route to this one in the future. At the moment, this service is for testing purposes only!
 
 ## Generator settings
 
-With the settings object you can change the behaviour of the generator.
+With the settings object you can change the behaviour of the generator. Hopefully, the following settings parameters are self-explanatory:
+
+```
+{
+	"apiKey": "<YOUR_API_KEY>",
+	"secret": "<YOUR_API_SECRET>",
+	"document: { ... },
+	"settings": {
+		vmlBackground: true,
+		rolePresentation: false,
+		lineLength: 799,
+	}
+}
+```
