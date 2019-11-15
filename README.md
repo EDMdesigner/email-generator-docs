@@ -1,1 +1,33 @@
 # email-generator-docs
+
+## Release Toggles
+
+Whenever we release new features we do it behind a release toggle. It means that if you don't explicitly turn on that feature, then our email HTML generator's output will be unchanged.
+This way we can make it sure that nothing breaks on your backend.
+
+For example, you might need to add tracking code to our buttons. You can do it by searching for a certain class name in our output and replace the link there.
+But what happens if our output changes? Well, without feature toggles, adding the tracking code might break on your backend, since you won't find that class name in our output.
+
+By releasing new features behind feature toggles, it's not a problem at all. You can explicitly turn on the new feature in your test environment and modify your backend in order to work with the new feature.
+
+If you want to learn more about feature toggles, please read [Martin Fowler's article](https://martinfowler.com/articles/feature-toggles.html).
+
+## The release process
+
+1. We are going to notify you about all of the changes in the generator
+	- You will have access to the description of every feature/fix (while they are behind a feature toggle), and you will be able to check out how that feature changes the email HTML code
+	- You are going to receive an email when a new feature/fix is available behind a feature flag
+2. When a new feature is ready, we release it behind a feature toggle.
+	- You will be able to turn the new features on and off, this way you will be able to experiment with the new features and fixes
+	- You will be able to give us feedback
+	- You will be able to change your backend code if needed before pushing it into production
+	- You will have the opportunity to decide when you want to turn the feature on in production
+	- And finally, if something goes wrong, you can turn off the feature any time by flipping a boolean value
+3. Every new feature and fix will stay behind a feature toggle for a month
+	- It will give everyone using our service enough time to prepare their backend for the new feature/changes
+	- If it comes out that there is a better solution for something, we can drop a feature after that month
+4. We are going to infrom you if something behind a feature toggle will become the default behaviour
+	- You are going to receive an email beforehand (at least a week) if a feature will turn into the default behavior
+	- And you are going to receive an email beforehand (at least a week) when a feature behind a feature flag will be dropped
+
+## Making requests
