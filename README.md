@@ -31,3 +31,26 @@ If you want to learn more about feature toggles, please read [Martin Fowler's ar
 	- And you are going to receive an email beforehand (at least a week) when a feature behind a feature flag will be dropped
 
 ## Making requests
+
+Our API is super simple. You have to make a HTTP POST request to the following url from your backend:
+
+```
+https://api.emailml.com/v1/<YOUR_API_KEY>/email-html
+```
+
+The body of the request should look like this:
+
+```
+{
+	"apiKey": "<YOUR_API_KEY>",
+	"secret": "<YOUR_API_SECRET>",
+	"document: { ... },
+	"settings": { ... }
+}
+```
+
+Document description comes later. Until then, we are providing some example JSONs in the jsons folder in this repository. You only need the document property from those JSONS and you have to put it to the document property of the HTTP POST request.
+
+For EDMdesigner integrators: You can use the JSON documents fetched from EDMdesigner's API. Similarly, you will only need the "document" property from those JSONs.
+
+## Generator settings
