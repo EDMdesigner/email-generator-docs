@@ -15,7 +15,7 @@ The default setting is:
 	"secret": "<YOUR_API_SECRET>",
 	"document: { ... },
 	"settings": {
-		vmlBackground: true,
+		"vmlBackground": true,
         ...
 	}
 }
