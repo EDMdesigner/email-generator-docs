@@ -5,21 +5,23 @@ Example JSON:
 {
     "background":{
     "image":{
+        "src":"https://examples/example.png"
         "position":"center center",
         "repeat":"no-repeat",
-        "src":"https://examples/example.png"
+
     },
     "color":"#60DE55"
     }
 }
 ```
-| Properties     | Type          | Values   | Description |
-| -------------  |:-------------:| -----:   |
-| color          | string        | hex code | hex codes have better support amongst email clients, than RGBa |
-| image          | object        |          |  |
-| image.src      | string        | URL      |  |
-| image.repeat   | string        | repeat, repeat-x, repeat-y, no-repeat |  |
-| image.position | string        | top, left, center, bottom, right | [read more:](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position)|
+| Properties | Type | Values | Description |
+| --- | --- | --- | ---
+| color | string  | hex code | hex codes have better support amongst email clients, than RGBa |
+| image | object |  |  |
+| image.src | string | URL |  |
+| image.repeat | string | repeat, repeat-x, repeat-y, no-repeat |  |
+| image.position | string | top, left, center, bottom, right | [read more](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position)|
+
 
 The background property group is used in the following types:
  - [BOX](../elements/box.md)

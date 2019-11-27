@@ -25,4 +25,4 @@ The default setting is:
 }
 ```
 
-note: Keep in mind that using this role setting can increase the size of the generated HTML code, especially for complex email layouts.
+Note: Keep in mind that using this role setting can increase the size of the generated HTML code, especially for complex email layouts.
