@@ -18,4 +18,4 @@ The default setting is:
 	}
 }
 ```
-Note: If your ESP does not have a special recommedation to the length of lines, the default setting is a safe bet, didn't need to change.
+Note: If your ESP does not have a special recommedation to the length of lines, the default setting is a safe bet, didn't need to change it.
