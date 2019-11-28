@@ -1,5 +1,6 @@
-description
+Background images are images that are applied to the background of an element in an email. The main difference compared with a hero image is that you can place HTML content on top of them. 
 
+[Read more on  VML background usage](../generator-settings/VMLbackground.md)
 Example JSON:
 ```
 {
@@ -28,4 +29,4 @@ The background property group is used in the following types:
  - [FULLWIDTH](../elements/fullwidth.md)
  - [BODY](../elements/body.md)
 
- Note: [Read more on background usage](../generator-settings/VMLbackground.md)
+ Note: Not all the email clients support background image, keep in mind that always set fallback background color and the image has to serve only decorational purpose.  
