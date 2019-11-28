@@ -34,5 +34,7 @@ Properties | Type | Values | Description
 children | array |  | The children array may [contain any of our element types](../elements) except the full-width element.
 background | object | object | [Read more](../prop-groups/background.md)
 border | object | object | [Read more](../prop-groups/border.md)
-margin | object | object |
-padding | object | object |
+margin | object | object | [Read more](../prop-groups/margin.md)
+padding | object | object | [Read more](../prop-groups/margin.md)
+hideOnDesktop |  | boolean | If it set to `true`, the generator add a class to the box element table to hide the content on desktop
+hideOnMobile |  | boolean | If it set to `true`, the generator add a class to the box element table to hide the content on mobile 
