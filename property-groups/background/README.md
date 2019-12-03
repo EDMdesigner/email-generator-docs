@@ -8,7 +8,7 @@ The generator can handle background settings in various types of elements. The b
  - [BODY](../elements/body.md)
  
 Between the generator settings there is an option to choose that the generator make the definition of the background in Vector Markup Language too. This block of code is only necessary for Outlooks on Windows.
-[Read more on VML background usage](../generator-settings/VMLbackground.md)
+[Read more on VML background usage](../../generator-settings/VMLbackground.md)
 
 Example JSON:
 ```
@@ -29,4 +29,4 @@ Example JSON:
 | image.position | string | [read about the list of values](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position) | [read more](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position)|
 
 
- Note: Not all the email clients support background image, keep in mind that always set fallback background color and the image has to serve only decorational purpose.  
+ Note: Not all the email clients support background image, keep in mind that always set fallback background color and the image has to serve only decorational purpose.
