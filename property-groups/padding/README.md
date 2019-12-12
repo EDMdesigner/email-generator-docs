@@ -1,8 +1,8 @@
-An element's padding area is the space between its content and its border. It's creates extra space within an element. As usual, different email clients have different ways to handle spacing around and between elements ([Read more](https://blog.edmdesigner.com/html-email-padding-margin-border/#testingmarginspaddingsandborders)). For example Outlook doesn’t acknowledge `<div>s` or their padding attributes.
+An element's padding area is the space between its content and its border. It's creates extra space within an element. As usual, different email clients have different ways to handle spacing around and between elements ([Read more](https://blog.edmdesigner.com/html-email-padding-margin-border/#testingmarginspaddingsandborders)). For example Outlook doesn’t acknowledge `<div>`s or their padding attributes.
 
 The most supported approach to get the same results on every email client is wrapping all the elements inside a table and apply the padding only on the `<td>`. [Read more](https://blog.edmdesigner.com/html-email-padding-margin-border/#testingmarginspaddingsandbordersontablewrappers)
 
-To get more information about how the generator handle padding on different element, check the description of the [box](/elements/box/README.md) element.
+To get more information about how the generator handle padding on different elements, check the description of the [box](/elements/box/README.md) element.
 
 
 Example JSON:
@@ -18,7 +18,7 @@ Example JSON:
 Properties | Type | Values | Description
 --- | --- | --- | ---
 padding | object | object | 
-padding.top | | integer |[Read about the list of values](https://developer.mozilla.org/en-US/docs/Web/CSS/padding)
-padding.right | | integer |[Read about the list of values](https://developer.mozilla.org/en-US/docs/Web/CSS/padding)
-padding.bottom| | integer |[Read about the list of values](https://developer.mozilla.org/en-US/docs/Web/CSS/padding)
-padding.left | | integer |[Read about the list of values](https://developer.mozilla.org/en-US/docs/Web/CSS/padding)
+padding.top | number | integer |[Read about the list of values](https://developer.mozilla.org/en-US/docs/Web/CSS/padding-top)
+padding.right | number | integer |[Read about the list of values](https://developer.mozilla.org/en-US/docs/Web/CSS/padding-right)
+padding.bottom| number | integer |[Read about the list of values](https://developer.mozilla.org/en-US/docs/Web/CSS/padding-bottom)
+padding.left | number | integer |[Read about the list of values](https://developer.mozilla.org/en-US/docs/Web/CSS/padding-left)

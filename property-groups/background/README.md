@@ -3,9 +3,9 @@ Using background color and images really can add to the look of an email. There 
 - highlighting the most important part of a content with eye-catching background color or image behind it
 
 The generator can handle background settings in various types of elements. The background property group is used in the following types:
- - [BOX](../elements/box.md)
- - [FULLWIDTH](../elements/fullwidth.md)
- - [BODY](../elements/body.md)
+ - [box](../../elements/box/README.md)
+ - [fullwidth elelment](../../elements/fullwidth/README.md)
+ - [body](../../elements/body/README.md)
  
 Between the generator settings there is an option to choose that the generator make the definition of the background in Vector Markup Language too. This block of code is only necessary for Outlooks on Windows.
 [Read more on VML background usage](../../generator-settings/VMLbackground.md)
