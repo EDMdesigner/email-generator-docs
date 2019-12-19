@@ -5,7 +5,6 @@ This wrapper table helps:
 - apply padding, margin, border and background setting around different element or group of elements
 - added class attributes take place on the wrapper table on the proper level (`<table>` or `<td>`)
 
-
 Example JSON:
 ```
 {
@@ -33,8 +32,8 @@ Properties | Type | Values | Description
 --- | --- | --- | ---
 hideOnDesktop |  | boolean | If it set to `true`, the generator add a class to the box element table to hide the content on desktop
 hideOnMobile |  | boolean | If it set to `true`, the generator add a class to the box element table to hide the content on mobile 
-margin | object | object | [Read more](../prop-groups/margin.md)
-border | object | object | [Read more](../prop-groups/border.md)
-padding | object | object | [Read more](../prop-groups/margin.md)
-background | object | object | [Read more](../prop-groups/background.md)
-children | array |  | The children array may [contain any of our element types](../elements) except the full-width element.
+margin | object | object | [Read more](/property-groups/margin/README.md)
+border | object | object | [Read more](/property-groups/border/README.md)
+padding | object | object | [Read more](/property-groups/padding/README.md)
+background | object | object | [Read more](/property-groups/background/README.md)
+children | array |  | The children array may [contain any of our element types](/elements) except the full-width element.
