@@ -1,29 +1,29 @@
 Th full width container is the base element of the document. It can only be a direct child of the root, so can be placed only in the highest level of the document structure. The main feature of this element type is that the adjusted background color and/or image extends to the full width of the email client's view pane. 
 
-There is a new feature in the genertor, is it possible to add containers with different width (before that the full width container's width property was set to 600px wide). Now it's is possible to set every full width block individually wider than the usual 600px.
+There is a new feature in the genertor, is it possible to add the full width container's inner fixed width container a different width (before that the full width container's width property was set to 600px wide). Now it's is possible to set every full width block individually wider than the usual 600px.
 
 ```
 {
 	"root" : {
-	"children" : [ 
-		{
-			"type" : "FULLWIDTH_CONTAINER",
-			"background" : {
-				"image" : {
-					"src" : "https://example.png",
-					"repeat" : "no-repeat",
-					"position" : "center center"
+		"children" : [ 
+			{
+				"type" : "FULLWIDTH_CONTAINER",
+				"background" : {
+					"image" : {
+						"src" : "https://example.png",
+						"repeat" : "no-repeat",
+						"position" : "center center"
+					},
+					"color" : "#60de55"
 				},
-				"color" : "#60de55"
-			},
-			"width" : 600,
-			"children" : [ 
-				...
-			]
+				"width" : 600,
+				"children" : [ 
+					...
+				]
 
-			"hideOnMobile" : false,
-			"customData" : {},
-			"hideOnDesktop" : false
+				"hideOnMobile" : false,
+				"customData" : {},
+				"hideOnDesktop" : false
 		}
 	],
 	"type" : "ROOT"
@@ -33,7 +33,7 @@ There is a new feature in the genertor, is it possible to add containers with di
 | Properties | Type | Values | Description |
 | --- | --- | --- | ---
 | background | object |  |[Read more](../../property-groups/background/README.md)
-| width | number | integer | the width of the content block (the email's body) can be set here, it is became a pixelated value |
+| width | number | integer | the width of the content block (if the whole content placed inside one full width container that is equal to the email's body) can be set here in pixels |
 children | array |  | The children array may [contain any of our element types](/elements) except the full-width element. |
 |hideOnMobile | string  | boolean | if it set to `true`, the container won't show on mobile view |
 |hideOnDesktop | string  | boolean | if it set to `true`, the container won't show on desktop view |
