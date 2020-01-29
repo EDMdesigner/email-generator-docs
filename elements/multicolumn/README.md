@@ -45,10 +45,10 @@ Keep in mind that:
 
 | Properties | Type | Values | Description |
 | --- | --- | --- | ---
-| hideOnMobile | string  | boolean | if it set to `true`, the multicolumn won't show on mobile view |
+| hideOnMobile |  | boolean | if it set to `true`, the multicolumn won't show on mobile view |
 | stacking | string | "left-on-top", "right-on-top", "none" | it is a custom propery to set the direction of the stacking of the columns on top of each other |
 | cols | array | | The cols array may contain children elements |
 children | array |  | The children array may [contain any of our element types](/elements) except the full-width element. |
-| children.hideOnMobile | string  | boolean | if it set to `true`, the column won't show on mobile view |
-children.lock | string | boolean | It's a chamaileon editor related property, if it set to `true`, the column's width remain the same even if the user add more columns
+| children.hideOnMobile |  | boolean | if it set to `true`, the column won't show on mobile view |
+children.lock |  |boolean | It's a chamaileon editor related property, if it set to `true`, the column's width remain the same even if the user add more columns
 children.width | number | percentage | It is used to define the width as relative to the child elements's parent object
