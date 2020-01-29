@@ -1,6 +1,6 @@
 Th full width container is the base element of the document. It can only be a direct child of the root, so can be placed only in the highest level of the document structure. The main feature of this element type is that the adjusted background color and/or image extends to the full width of the email client's view pane. 
 
-There is a new feature in the genertor, is it possible to add the full width container's inner fixed width container a different width (before that the full width container's width property was set to 600px wide). Now it's is possible to set every full width block individually wider than the usual 600px.
+There is a new feature in the genertor, is it possible to set the full width container's inner fixed width container a different width (before that the full width container's width property was set to 600px wide). Now it's is possible to set every full width block individually wider than the usual 600px.
 
 ```
 {
