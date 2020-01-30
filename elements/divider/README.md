@@ -17,6 +17,7 @@ The divider is technically an “empty box” which can have spacing, background
 	},
 	"width" : 100,
 	"transparent" : false,
+	"lastDividerColor" : null
 	"background" : {
 		...
 	},
@@ -33,3 +34,4 @@ lineStyle.style | string | solid, dotted etc. | it can have the same values like
 spacing | object | object |
 width | number | percentage | It is used to define the width as relative to the child elements's parent object 
 transparent |  | boolean | if it set to `true` the line become transparent and the element become more like a spacing
+lastDividerColor |  |  | editor related property (it is not neccessary)
