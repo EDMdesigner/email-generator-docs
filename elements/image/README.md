@@ -1,4 +1,4 @@
-Images are one of the most important design elements of an commercial email, but they need to be used with caution. [More on that](https://blog.edmdesigner.com/12-extremely-easy-tips-for-effective-use-of-images-in-email-design/)
+Images are one of the most important design elements of a commercial email, but they need to be used with caution. [More on that](https://blog.edmdesigner.com/12-extremely-easy-tips-for-effective-use-of-images-in-email-design/)
 
 Images are relatively complex elements. Just like boxes, they can have paddings, margins, borders, background color (no background image property, because it would not be a good fallback resolution to set the same image as background, because of the poor client support of the background image), but they can’t have children.
 
