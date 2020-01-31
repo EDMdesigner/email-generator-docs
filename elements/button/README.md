@@ -1,6 +1,6 @@
 Buttons are usually used for call-to-actions and are one of the most important elements of the email. It used to refer to an instruction or a request that a company makes to its audience in order to provoke a certain response or action.
 
-Button is relatively complex as well. It can have the following box properties: paddings, margins, borders, backgrouns (color and background image as well). In addition it can have radius. The most important propery of a button is the link value of the href property and the text.
+Button is relatively complex as well. It can have the following box properties: paddings, margins, borders, backgrounds (color and background image as well). In addition it can have radius. The most important propery of a button is the link value of the href property and the text.
 
 ```
 {
