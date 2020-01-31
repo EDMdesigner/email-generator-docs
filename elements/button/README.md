@@ -49,4 +49,10 @@ sizeType | string | FIXED, FIT_TO_TEXT | if it set to “FIXED”: the width of 
 text | string | text | the text what sould appear on the button (it can be a simple valid html snippet as well, the generator would handle that)
 href | string | link | 
 typography | object | object | it contains the the basic typography properties set in the editor
-text | object | object | tomorrow
+typography.text | object | object | 
+typography.text.family | string | font-family name | set the font-family style of the button
+typography.text.size | number | integer | set the font size of the button (good practice is using even numbers, because outlooks have a bug and sometimes show thin lines under elements that has have odd font size or padding value)
+typography.text.color | string | hex code | set the color of the chosen font of the button
+typography.text.lineHeight | number | integer | set the lineheight of the chosen font of the button
+typography.text.weight | string | normal, bold | set the weight of the chosen font of the button
+typography.text.style | string | normal, italic | set the style of the chosen font of the button
