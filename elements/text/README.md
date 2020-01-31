@@ -9,72 +9,72 @@ The generator has a bulit in fallback font stack for word based Outlooks, becaus
 	"type": "TEXT",
 	"text": "<p><span style="font-size:18px;">example text</span></p><p>&nbsp;</p>",
 	"typography": {
-	"h1": {
-		"family": "arial",
-		"size": 32,
-		"color" :"#000000",
-		"lineHeight": 32,
-		"weight": "bold",
-		"style": "normal"
-	},
-	"h2": {
-		"family": "arial",
-		"size": 26,
-		"color": "#000000",
-		"lineHeight": 26,
-		"weight": "bold",
-		"style": "normal"
-	},
-	"h3": {
-		"family": "arial",
-		"size": 22,
-		"color": "#000000",
-		"lineHeight": 22,
-		"weight": "bold",
-		"style": "normal"
-	},
-	"h4": {
-		"family": "arial",
-		"size": 20,
-		"color": "#000000",
-		"lineHeight": 20,
-		"weight": "bold",
-		"style": "normal"
-	},
-	"h5": {
-		"family": "arial",
-		"size": 18,
-		"color": "#000000",
-		"lineHeight": 18,
-		"weight": "bold",
-		"style": "normal"
-	},
-	"h6": {
-		"family": "arial",
-		"size": 16,
-		"color":" #000000",
-		"lineHeight": 16,
-		"weight": "bold",
-		"style": "normal"
-	},
-	"text": {
-		"family": "arial",
-		"size": 14,
-		"color": "#000000",
-		"lineHeight": 14,
-		"weight": "normal",
-		"style": "normal"
-	},
-	"link":{
-		"color": "#5555ff",
-		"underline": true
-	}
+		"h1": {
+			"family": "arial",
+			"size": 32,
+			"color" :"#000000",
+			"lineHeight": 32,
+			"weight": "bold",
+			"style": "normal"
+		},
+		"h2": {
+			"family": "arial",
+			"size": 26,
+			"color": "#000000",
+			"lineHeight": 26,
+			"weight": "bold",
+			"style": "normal"
+		},
+		"h3": {
+			"family": "arial",
+			"size": 22,
+			"color": "#000000",
+			"lineHeight": 22,
+			"weight": "bold",
+			"style": "normal"
+		},
+		"h4": {
+			"family": "arial",
+			"size": 20,
+			"color": "#000000",
+			"lineHeight": 20,
+			"weight": "bold",
+			"style": "normal"
+		},
+		"h5": {
+			"family": "arial",
+			"size": 18,
+			"color": "#000000",
+			"lineHeight": 18,
+			"weight": "bold",
+			"style": "normal"
+		},
+		"h6": {
+			"family": "arial",
+			"size": 16,
+			"color":" #000000",
+			"lineHeight": 16,
+			"weight": "bold",
+			"style": "normal"
+		},
+		"text": {
+			"family": "arial",
+			"size": 14,
+			"color": "#000000",
+			"lineHeight": 14,
+			"weight": "normal",
+			"style": "normal"
+		},
+		"link":{
+			"color": "#5555ff",
+			"underline": true
+		}
 	},
 	"spacing":{
-	"top":5,
-	"right":5,
-	"bottom":5,
-	"left":5
+		"top":5,
+		"right":5,
+		"bottom":5,
+		"left":5
 	}
 }
 ```
