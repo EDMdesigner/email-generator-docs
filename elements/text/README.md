@@ -1,6 +1,6 @@
 There was a time, when sending HTML emails built from images was a common practice, but using image-based emails lead to a lot of problems, like exclude subscribers with vision impairment, poor internet connection or whom set the image blocking. It is essential to use as many live text as possible.
 
-Keep in mind that there are lot of limitation on custom font usage, choose your font set wisely. [More on thet matter:](https://chamaileon.io/resources/best-fonts-for-email/)
+Keep in mind that there are lot of limitation on custom font usage, choose your font set wisely. [More on that matter:](https://chamaileon.io/resources/best-fonts-for-email/)
 
 The generator has a bulit in fallback font stack for word based Outlooks, because without it the default font family was Times New Roman. 
 
