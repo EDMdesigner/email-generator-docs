@@ -39,7 +39,10 @@ The new format:
 		"children": [
 			...
 		]
-	}
+	},
+	"head" : {
+		...
+	},
 	"settings" : {
 		...
 	}
