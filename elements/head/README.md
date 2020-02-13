@@ -1,9 +1,9 @@
-The `head` property is part of the new properties that help keeping the JSON file more organised. The `head` contains properties that will be placed in the `<head>` tag of the generated email HTML file.
+The `head` property is part of the new properties that helps keeping the JSON file more organised. The `head` contains properties that will be placed in the `<head>` tag of the generated email HTML file.
 In the old JSON format of our editors these properties were placed in various parts of the files, but there is no need to change that, because the new generator will convert it. These are the still supported methods to add custom fonts:
- - There is an option in the EDMdesigner API dashboard where you can add google font resource and that link will be placed in a `<link>` metatag in the `head`. 
+ - There is an option in the EDMdesigner API dashboard where you can add google font resource and that link will be placed in a `<link>` metatag in the `head`.  There is a placeholder in the raw HTML file's head tag for that purpose.
  - There is a stack of supported google fonts built in the Chamaileon editor, if you use any of them, there is no need to place the link anywhere in the JSON file
 
-A main change compared to the older versions is how to define the used fonts, if they are used from an external source and not one of the web safe fonts. It need to be placed in an array called fonts and put the name and source of the used fonts organised in objects.
+A main change compared to the older versions is how to define the used fonts, if they are used from an external source and not one of the web safe fonts. It needs to be placed in an array called `fonts` and put the name and source of the used fonts organised in objects.
 Be aware not every email client support webfonts and custom fonts, always define a fallback font in the typography propery of the elements.
 [Read more on supported fonts](https://chamaileon.io/resources/best-fonts-for-email/#quick_guide_to_web_fonts_and_web-safe_fonts)
 [Read more on typography](../text/README.md)
