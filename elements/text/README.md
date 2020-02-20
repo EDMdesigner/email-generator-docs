@@ -2,12 +2,22 @@ There was a time, when sending HTML emails built from images was a common practi
 
 Keep in mind that there are lot of limitation on custom font usage, choose your font set wisely. [More on that matter:](https://chamaileon.io/resources/best-fonts-for-email/)
 
-The generator has a bulit in fallback font stack for word based Outlooks, because without it the default font family was Times New Roman. 
+The generator has a bulit in fallback font stack for word based Outlooks, because without it the default font family is Times New Roman.
+
+Ther is a new feature in the generator, it is possible to add background image directly to the `text` element. The generator places the text inside a wrapper table and the background settings are applied on that table.
 
 ```
 {
 	"type": "TEXT",
 	"text": "<p><span style="font-size:18px;">example text</span></p><p>&nbsp;</p>",
+	"background":{ 
+		"image":{ 
+			"src":"http://example.jpg",
+			"repeat":"no-repeat",
+			"position":"center center"
+		},
+		"color":"#60de55"
+	},	
 	"typography": {
 		"h1": {
 			"family": "arial",
@@ -81,7 +91,8 @@ The generator has a bulit in fallback font stack for word based Outlooks, becaus
 
 Properties | Type | Values | Description
 --- | --- | --- | ---
-text | string | text | the content text that can be a valid short HTML code snippet | 
+text | string | text | the content text that can be a valid short HTML code snippet |
+background | object | object | [Read more](/property-groups/background/README.md)
 typography | object | object | it contains the basic typography properties set in the editor
 typography.h* | object | object | it contains the font properties of the different headers
 typography.h*.family | string | font-family name | set the font-family style of the header
