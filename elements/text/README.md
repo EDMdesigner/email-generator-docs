@@ -2,7 +2,7 @@ There was a time, when sending HTML emails built from images was a common practi
 
 Keep in mind that there are lot of limitation on custom font usage, choose your font set wisely. [More on that matter:](https://chamaileon.io/resources/best-fonts-for-email/)
 
-The generator has a bulit in fallback font stack for word based Outlooks, because without it the default font family is Times New Roman.
+The generator has a built in fallback font stack for word based Outlooks, because without it the default font family is Times New Roman.
 
 Ther is a new feature in the generator, it is possible to add background image directly to the `text` element. The generator places the text inside a wrapper table and the background settings are applied on that table.
 
