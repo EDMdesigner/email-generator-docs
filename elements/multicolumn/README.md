@@ -11,7 +11,7 @@ There are new features in the generator, now it is possible to:
 The width of the multicolumn is set to 100% and extends to the full width of its parent element. The width of the child elements of the columns is calculated from the width of the multicolumns parent elements width.
 
 Keep in mind that: 
- - the sum of the child elements width (with the padding, margin and border width values) won't exceed the parent elements width, because the last column might break into a new line (it applies to the column spacings too, the sum of the columns and column spacings width might not pass 100%)
+ - the sum of the child elements width (if the column contains an element with padding, margin and/or border width set on, these are count in too) won't exceed the parent elements width, because the last column might break into a new line (it applies to the column spacings too, the sum of the columns and column spacings width might not pass 100%)
  - too long words in a paragraph might push out the width of the column that result in breaking the layout
 
 Older JSON version:
@@ -22,14 +22,6 @@ Older JSON version:
 	"hideOnMobile" : false,
 	"hideOnDesktop" : false,
 	"stacking": "left-on-top",
-	"background":{
-		"image":{
-			"src":"https://example.png",
-			"repeat":"repeat-y",
-			"position":"center top"
-		},
-		"color":"#ECC9C9"
-	},
 	"cols" : [ 
 		{
 			"children" : [ 
