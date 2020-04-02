@@ -1,0 +1,67 @@
+{
+    "root" : {
+        "children" : [ 
+            {
+                "type" : "FULLWIDTH_CONTAINER",
+                "background" : {
+                    "image" : {
+                        "src" : null,
+                        "repeat" : "no-repeat",
+                        "position" : "center center"
+                    },
+                    "color" : null
+                },
+                "width" : 600,
+                "children" : [ 
+                    {
+                        "type" : "DIVIDER",
+                        "align" : "center",
+                        "background" : {
+                            "image" : {
+                                "src" : "https://example.png",
+                                "repeat" : "no-repeat",
+                                "position" : "center center"
+                            },
+                            "color" : "#2ED4B4"
+                        },
+                        "lineStyle" : {
+                            "color" : "#D3D3D3",
+                            "width" : 5,
+                            "style" : "solid"
+                        },
+                        "spacing" : {
+                            "top" : 20,
+                            "right" : 20,
+                            "bottom" : 20,
+                            "left" : 20
+                        },
+                        "width" : 100,
+                        "transparent" : false,
+                        "lastDividerColor" : null
+                    }
+                ],
+                "twoCell" : false,
+                "isLeftHigher" : true,
+                "order" : "LTR",
+                "hideOnMobile" : false,
+                "customData" : {},
+                "hideOnDesktop" : false
+            }
+        ],
+        "type" : "ROOT"
+    },
+    "version" : "v1",
+    "header" : null,
+    "footer" : null,
+    "usedColors" : [],
+    "generalSettings" : {
+        "background" : {
+            "image" : {
+                "src" : null,
+                "repeat" : "no-repeat",
+                "position" : "center center"
+            },
+            "color" : null
+        }
+    }
+}
