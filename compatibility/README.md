@@ -9,7 +9,7 @@ Supported email clients:
 Air Mail 2.0
 Apple Mail 4, 5, 6, 7, 8, 9
 Entourage 2004, Entourage 2008 - dicontinued
-Microsoft Outlook for Windows 2007, 2010, 2011, 2013, 2016 *
+Microsoft Outlook for Windows 2007, 2010, 2011, 2013, 2016, 2019 *
 Thunderbird 3.0+
 Windows Live Mail -discontinued, but usable with non-Microsoft email accounts
 Windows Mail
@@ -59,5 +59,4 @@ Windows Phone 7.5
 Notes:
 *Outlook 2007-2019 only renders background images if it is coded in VML, there is an option in the generator to made both VML and HTML declaration for the background. [Read more](../generator-settings/VMLbackground.md)
 
-
-https://github.com/EDMdesigner/editor-issues
+ If you have any questions or run into any issues you can create an issue [here](https://github.com/EDMdesigner/editor-issues) 
