@@ -1,4 +1,3 @@
-
 VML is stands for Vector Markup language and this format is used for define shapes that renders correctly on Word engined Outlook versions. From Outlook2007 to the newest versions, Outlooks only render the background images or the rounded shape buttons if they were declared in VML.
 
 Inside the settings object you can now place a vmlBackground parameter either of the values true or false:

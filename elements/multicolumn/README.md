@@ -21,7 +21,7 @@ Example for a valid older JSON version:
 	"type" : "MULTICOLUMN",
 	"hideOnMobile" : false,
 	"hideOnDesktop" : false,
-	"stacking": "left-on-top",
+	"reorderOnMobile": true,
 	"cols" : [ 
 		{
 			"children" : [ 
@@ -58,7 +58,7 @@ Example for a valid newer JSON version:
 	"type": "MULTICOLUMN",
 	"hideOnMobile" : false,
 	"hideOnDesktop" : false,
-	"reorderOnMobile": true,
+	"stacking": "left-on-top",
 	"background":{
 		"image":{
 			"src":"https://example.png",
@@ -143,4 +143,4 @@ children | array |  | The children array may [contain any of our element types](
 | children.hideOnMobile |  | boolean | if it set to `true`, the column won't show on mobile view |
 
 Note: The `stacking` property is one of the new properties and it alternates the `reorderOnMobile` property. If `reorderOnMobile` is set to `true`, the child elements of the columns are stacking on top of each other, always start with the first left column. If it set to `false`, the columns are scaling down to fit to the mobile screen.
- The main difference is now you can control the direction of the stacking with using the `stacking` instead of the `reorderOnMobile`.
+The main difference is now you can control the direction of the stacking with using the `stacking` instead of the `reorderOnMobile`.
