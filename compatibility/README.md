@@ -1,4 +1,4 @@
-#Email compatibility of our generated code
+#Email client compatibility of our generated code
 
 Unlike the web, which has just a few browsers handling most traffic, emails are read in a huge variety of email applications, or clients. 
 
