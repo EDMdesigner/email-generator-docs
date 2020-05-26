@@ -20,6 +20,6 @@ The default setting is:
 }
 ```
 
-[Example JSON file](../../email-generator-docs/full-email-layout-examples/vml_background_example.json)
+[Example JSON file](../full-email-layout-examples/vml_background_example.json)
 
 Note: if you choose VML background, only use one image, do not use more background images overlayed on each other. VML backgrounds can't be nested inside each other -because of their built in rendering logic- therefore the generator will rendering only the closest parent element's background image.
