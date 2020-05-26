@@ -36,7 +36,7 @@ For EDMdesigner integrators: You can use the JSON documents fetched from EDMdesi
 
 ## Generator settings
 
-With the settings object you can change the behaviour of the generator. Hopefully, the following settings parameters are self-explanatory:
+With the settings object you can change the behaviour of the generator. You find every option's description in the [document-settings folder](https://github.com/EDMdesigner/email-generator-docs/tree/master/document-settings) :
 
 ```
 {
@@ -47,6 +47,8 @@ With the settings object you can change the behaviour of the generator. Hopefull
 		vmlBackground: true,
 		rolePresentation: false,
 		lineLength: 799,
+		encodeUrls: true,
+		"lang": "fr"
 	}
 }
 ```
