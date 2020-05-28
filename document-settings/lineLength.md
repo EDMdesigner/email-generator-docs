@@ -14,7 +14,7 @@ The default setting is:
 	"document: { ... },
 	"settings": {
 		"lineLength": 799,
-        ...
+		...
 	}
 }
 ```

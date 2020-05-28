@@ -1,4 +1,4 @@
-#Email client compatibility of our generated code
+# Email client compatibility of our generated code
 
 Unlike the web, which has just a few browsers handling most traffic, emails are read in a huge variety of email applications, or clients. 
 
@@ -6,7 +6,7 @@ The varying levels of support across email clients and their rendering engines l
 
 Supported email clients:
 
-##Desktop clients:
+## Desktop clients:
 
 Air Mail 2.0
 Apple Mail 4, 5, 6, 7, 8, 9
@@ -16,7 +16,7 @@ Thunderbird 3.0+
 Windows Live Mail -discontinued, but usable with non-Microsoft email accounts
 Windows Mail
 
-##Web based:
+## Web based:
 
 AOL Mail
 Atmail Open
@@ -39,7 +39,7 @@ Yahoo! Mail
 M<span>ail.r</span>u
 Yandex Mail
 
-##Mobile clients: 
+## Mobile clients: 
 
 Android 2.3 – 4.2.x
 Android 4.3+
@@ -59,6 +59,6 @@ Windows Phone 7.5
 
 
 Notes:
-*Outlook 2007-2019 only renders background images if it is coded in VML, there is an option in the generator to made both VML and HTML declaration for the background. [Read more](../generator-settings/VMLbackground.md)
+*Outlook 2007-2019 only renders background images if it is coded in VML, there is an option in the generator to made both VML and HTML declaration for the background. [Read more](../document-settings/VMLbackground.md)
 
- If you have any questions or run into any issues you can create an issue [here](https://github.com/EDMdesigner/editor-issues) 
+ If you have any questions or run into any issues you can create an issue [here](https://github.com/EDMdesigner/email-generator-docs/issues) 
