@@ -44,10 +44,10 @@ With the settings object you can change the behaviour of the generator. You find
 	"secret": "<YOUR_API_SECRET>",
 	"document: { ... },
 	"settings": {
-		vmlBackground: true,
-		rolePresentation: false,
-		lineLength: 799,
-		encodeUrl: true,
+		"vmlBackground": true,
+		"rolePresentation": false,
+		"lineLength": 799,
+		"encodeUrl": true,
 		"lang": "fr"
 	}
 }

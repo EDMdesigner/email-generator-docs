@@ -8,11 +8,12 @@ Example JSON:
 
 ```
 {
-
+	"apiKey": "<YOUR_API_KEY>",
+	"secret": "<YOUR_API_SECRET>",
 	"document: { ... },
 	"settings": {
 		"lang": "fr",
-        ...
+		...
 	}
 }
 ```

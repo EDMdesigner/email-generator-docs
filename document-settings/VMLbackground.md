@@ -15,7 +15,7 @@ The default setting is:
 	"document: { ... },
 	"settings": {
 		"vmlBackground": true,
-        ...
+		...
 	}
 }
 ```

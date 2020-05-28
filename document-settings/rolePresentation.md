@@ -20,7 +20,7 @@ The default setting is:
 	"document: { ... },
 	"settings": {
 		"rolePresentation": false,
-        ...
+		...
 	}
 }
 ```
