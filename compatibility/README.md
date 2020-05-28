@@ -61,4 +61,4 @@ Windows Phone 7.5
 Notes:
 *Outlook 2007-2019 only renders background images if it is coded in VML, there is an option in the generator to made both VML and HTML declaration for the background. [Read more](../document-settings/VMLbackground.md)
 
- If you have any questions or run into any issues you can create an issue [here](https://github.com/EDMdesigner/editor-issues/issues) 
+ If you have any questions or run into any issues you can create an issue [here](https://github.com/EDMdesigner/email-generator-docs/issues) 
