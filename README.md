@@ -47,7 +47,7 @@ With the settings object you can change the behaviour of the generator. You find
 		vmlBackground: true,
 		rolePresentation: false,
 		lineLength: 799,
-		encodeUrls: true,
+		encodeUrl: true,
 		"lang": "fr"
 	}
 }
