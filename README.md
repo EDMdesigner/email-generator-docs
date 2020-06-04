@@ -1,4 +1,4 @@
-# email-generator-docs
+# Email generator documentation
 
 ## Making requests
 
@@ -36,7 +36,7 @@ For EDMdesigner integrators: You can use the JSON documents fetched from EDMdesi
 
 ## Generator settings
 
-With the settings object you can change the behaviour of the generator. Hopefully, the following settings parameters are self-explanatory:
+With the settings object you can change the behaviour of the generator. You find every option's description in the [document-settings folder](https://github.com/EDMdesigner/email-generator-docs/tree/master/document-settings) :
 
 ```
 {
@@ -44,9 +44,11 @@ With the settings object you can change the behaviour of the generator. Hopefull
 	"secret": "<YOUR_API_SECRET>",
 	"document: { ... },
 	"settings": {
-		vmlBackground: true,
-		rolePresentation: false,
-		lineLength: 799,
+		"vmlBackground": true,
+		"rolePresentation": false,
+		"lineLength": 799,
+		"encodeUrl": true,
+		"lang": "fr"
 	}
 }
 ```
@@ -80,3 +82,7 @@ If you want to learn more about feature toggles, please read [Martin Fowler's ar
 4. We are going to infrom you if something behind a feature toggle will become the default behaviour
 	- You are going to receive an email beforehand (at least a week) if a feature will turn into the default behavior
 	- And you are going to receive an email beforehand (at least a week) when a feature behind a feature flag will be dropped
+	
+## Compatibility
+
+We are proud that our HTML generator supports the major email clients and also a lot less popular ones. We frequently test the output to maintain quality. For the full list of our supported email clients please check [our page about compatibility](https://github.com/EDMdesigner/email-generator-docs/tree/master/compatibility) and if you don't find the email client you looking for or you experience some issue please do not hesitate to create an issue in [our issue tracking repository](https://github.com/EDMdesigner/email-generator-docs/issues).
