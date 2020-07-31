@@ -4,7 +4,9 @@ This documentation is about our new email generator, which we use with chamaileo
 
 ## Making requests
 
-Our API is super simple. You have to make a HTTP POST request with a `Content-Type: application/json` header to the following URL from your backend:
+If you are an EDMdesigner intergator then you don't need to replace your current requests just please add the ['settings' object](https://github.com/EDMdesigner/email-generator-docs#generator-settings) to your queryString and call it 'newGeneratorSettings'. If the API request contains a 'newGeneratorSettings' object then we automatically forward this request to the new generator.
+
+For new customers who interested in this generator Our API is super simple too. You have to make a HTTP POST request with a `Content-Type: application/json` header to the following URL from your backend:
 
 ```
 https://api.emailml.com/v1/<YOUR_API_KEY>/email-html
@@ -32,13 +34,9 @@ The response is a JSON with the following format:
 
 ### API key and API secret
 
-If you are an EDMdesigner intergator then you already have them.
-
-If you aren't and you would like to try or use our generator then please let us know at [support@edmdesigner.com](mailto:support@edmdesigner.com). There is currently no automatic way to pass apiKey and secret but we work on it and will announce it here as soon as it's done.
+If you would like to try or use our generator then please let us know at [support@edmdesigner.com](mailto:support@edmdesigner.com). There is currently no automatic way to pass apiKey and secret but we work on it and will announce it here as soon as it's done.
 
 ### The document
-
-For EDMdesigner integrators: You can use the JSON documents fetched from EDMdesigner's API. Similarly, you will only need the "document" property from those JSONs. We are going to direct the traffic from the original generator route to this one in the future. At the moment, we support both service but we encourage our partners to try this new generator out and if it fits them replace the old one with this! We currently use it at chamaileon.io and also a few EDMdesigner integrators already use it with satisfaction.
 
 For those who want to create their own JSONs, actually we are working a detailed JSON format description. Currently, we have [one full email layout example](https://github.com/EDMdesigner/email-generator-docs/blob/master/full-email-layout-examples/vml_background_example.json), [descriptions for a few elements](https://github.com/EDMdesigner/email-generator-docs/tree/master/elements) and [descriptions for a few element property](https://github.com/EDMdesigner/email-generator-docs/tree/update/textAndStructure/property-groups). Until we create every other description as well, please use the example JSON in the [full-email-layout-examples folder](https://github.com/EDMdesigner/email-generator-docs/tree/master/full-email-layout-examples) and change it by our current element descriptions. You only need the "document" property from those JSONS and you have to put it to the "document" property of the HTTP POST request.
 
