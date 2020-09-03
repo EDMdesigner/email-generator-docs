@@ -1,6 +1,6 @@
 The loop element only have 2 properties: expression and children.
 Depending on your expression, it can loop through your data to build lists for example.
-You can choose the templating language that you would like to use in tha email properties settings, which can be reached throught the toolbox too.
+You can choose the templating language that you would like to use in the email properties settings, which can be reached throught the toolbox too.
 
 For more information you can visit:
 
@@ -14,9 +14,9 @@ If you are using Mustache: https://mustache.github.io/mustache.5.html
 {
 	"type" : "LOOP",
 	"expression": "user.orderHistory",
-    "children":[
-        ...
-    ]
+	"children":[
+		...
+	]
 }
 ```
 
