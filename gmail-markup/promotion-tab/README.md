@@ -13,6 +13,8 @@ More about the Promotion Card:
  - https://developers.google.com/gmail/promotab/overview
  - https://developers.google.com/gmail/promotab/best-practices
 
+## Implementation
+
 Gmail allows two options to embed Schema data. JSON-LD snippet usually goes in the head of the email, the Microdata fits better in the email body. Read more about the formats [here](https://developers.google.com/gmail/markup/reference/formats/json-ld) and here [here](https://developers.google.com/gmail/markup/reference/formats/microdata).
 Some Email Service Providers strip the JSON-LD code as it is embedded within a script tag, be avare of your ESP's policiy.
 
