@@ -1,5 +1,7 @@
 # Set a Promotion Card
 
+## What is a Promotion Card?
+
 Gmail came up with an update that, by using machine learning, automatically groups and highlights emails in the Promotions tab that people are most likely to engage with.
 Gmail identifies the most valuable messages for each user and groups them into bundles organized by topic or themes like Top Deals or Top Picks.
 
@@ -8,10 +10,10 @@ The new features include Single Image Previews, Deal Badges and Custom Logos and
 Google terms these features as Annotations as senders would “annotate” the emails with Schema markup that allows Gmail to pick up these features.
 
 More about the Promotion Card:
-https://developers.google.com/gmail/promotab/overview
-https://developers.google.com/gmail/promotab/best-practices
+ - https://developers.google.com/gmail/promotab/overview
+ - https://developers.google.com/gmail/promotab/best-practices
 
-Gmail allows two options to embed Schema data. JSON-LD snippet usually goes in the head of the email, the Microdata fits better in the email body. Read more about the formats [here](https://developers.google.com/gmail/markup/reference/formats/json-ld) and here [here](https://developers.google.com/gmail/markup/reference/formats/microdata)
+Gmail allows two options to embed Schema data. JSON-LD snippet usually goes in the head of the email, the Microdata fits better in the email body. Read more about the formats [here](https://developers.google.com/gmail/markup/reference/formats/json-ld) and here [here](https://developers.google.com/gmail/markup/reference/formats/microdata).
 Some Email Service Providers strip the JSON-LD code as it is embedded within a script tag, be avare of your ESP's policiy.
 
 The generator puts the data defined by you both formats, the JSON-LD is placed in the head, the microdata part is in the body tag.
