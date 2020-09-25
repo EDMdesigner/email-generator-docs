@@ -4,7 +4,7 @@ This documentation is about our new email generator, which we use with chamaileo
 
 ## Making requests
 
-If you are an EDMdesigner intergator then you don't need to replace your current requests just please add the ['settings' object](https://github.com/EDMdesigner/email-generator-docs#generator-settings) to your queryString and call it 'newGeneratorSettings'. If the API request contains a 'newGeneratorSettings' object then we automatically forward this request to the new generator.
+If you are an EDMdesigner intergator then you don't need to replace your current requests just please add the ['settings' object](https://github.com/EDMdesigner/email-generator-docs#available-settings) to your queryString and call it 'newGeneratorSettings'. If the API request contains a 'newGeneratorSettings' object then we automatically forward this request to the new generator.
 
 For new customers who interested in this generator Our API is super simple too. You have to make a HTTP POST request with a `Content-Type: application/json` header to the following URL from your backend:
 
