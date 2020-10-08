@@ -54,7 +54,8 @@ With the settings object you can change the behaviour of the generator. You find
 		"rolePresentation": false,
 		"lineLength": 799,
 		"encodeUrl": true,
-		"lang": "fr"
+		"lang": "fr",
+		"buttonType": "minimal"
 	}
 }
 ```
