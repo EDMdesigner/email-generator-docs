@@ -5,7 +5,13 @@ This generator setting is used to set the template language for the `conditional
 
 Currently supported template languages: `handlebars, liquid, mustache`.
 
-You can read more about template languages [here](https://en.wikipedia.org/wiki/Web_template_system).
+For more information you can visit:
+
+If you are using Handlebars: https://sendgrid.com/docs/for-developers/sending-email/using-handlebars/#conditional-statements
+
+If you are using Liquid: https://shopify.github.io/liquid/tags/control-flow/
+
+If you are using Mustache: https://mustache.github.io/mustache.5.html
 
 
 Default value:
