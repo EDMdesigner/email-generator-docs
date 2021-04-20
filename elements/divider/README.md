@@ -1,4 +1,6 @@
-The divider is technically an “empty box” which can have spacing, background, and lineStyle properties. The primary function of this leaf element is seperate the content into smaller logical blocks.
+# Divider element
+
+The divider is technically an “empty box” which can have the spacing, background, and lineStyle properties. The primary function of this leaf element is to separate the content into smaller logical blocks.
 
 ```
 {
@@ -32,6 +34,6 @@ lineStyle.color| string | hex code | set the color of the divider line
 lineStyle.width | number | integer | set the thickness of the divider line
 lineStyle.style | string | solid, dotted etc. | it can have the same values like the border style: [more about the values](https://developer.mozilla.org/en-US/docs/Web/CSS/border-style)
 spacing | object | object |
-width | number | percentage | It is used to define the width as relative to the child elements's parent object 
-transparent |  | boolean | if it set to `true` the line become transparent and the element become more like a spacing
-lastDividerColor |  |  | editor related property (it is not neccessary)
+width | number | percentage | It is used to define the width as to the parent element's width
+transparent |  | boolean | if it set to `true` the line will become transparent and the element becomes more like a spacer
+lastDividerColor |  |  | editor related property (it is not necessary)
