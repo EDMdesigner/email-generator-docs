@@ -8,6 +8,8 @@ By adding campaign parameters to the destination URLs you use in your ad campaig
 
 The generator appends every `key` & `value` parameter to every link that has the `https://` protocol.
 
+Example: `https://example.com/?utm_campaign=summer_sale`
+
 
 Example JSON:
 
