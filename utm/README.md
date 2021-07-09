@@ -54,7 +54,7 @@ Example JSON:
 Properties | Type | Values | Description
 --- | --- | --- | ---
 UTM | object | object | this wrapper property contains all the UTM elements
-UTM.generate | | boolean | if it's set to true, the generator will add the parameters to every `https://` link
+UTM.generate | | boolean | if it's set to true, the generator will add the parameters to every link with the `https://` protocol
 UTM.parameters| array | array | this wrapper property contains the UTM parameters
 UTM.parameters[object] | object | object | this wrapper contains one key and it's value. They are freely customizable and there are no required keys.
 UTM.parameters[object].key | string | short text | this is the name of the UTM parameter. Example: `utm_campaign`
