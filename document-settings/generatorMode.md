@@ -30,7 +30,8 @@ Div-only
 		lang: "en",
 		lineLength: 799,
 		templatingLanguage: "handlebars",
-		generatorMode: "table-desktop",
+		generatorMode: "div-only",
+		previewTextHack: false,
 	}
 }
 ```
@@ -49,6 +50,7 @@ Classic, Table-desktop, Hybrid
 		buttonType: "classic",
 		templatingLanguage: "handlebars",
 		generatorMode: "table-desktop",
+		previewTextHack: false,
 	}
 }
 ```
