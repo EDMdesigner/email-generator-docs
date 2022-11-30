@@ -13,7 +13,8 @@ Example: `https://example.com/?utm_campaign=summer_sale`
 
 Example JSON:
 
-```
+```json
+{
 	"document": {
 		"body": {
 			...
@@ -49,8 +50,9 @@ Example JSON:
 					"value": "value6"
 				}
 			]
-	},
+		}
 	}
+}
 ```
 
 Properties | Type | Values | Description

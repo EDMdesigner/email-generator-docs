@@ -1,13 +1,13 @@
 # Fullwidth container element
 
-The fullwidth container is the base element of the document. It can only be a direct child of the root, so it can only be placed at the highest level of the document structure. The main feature of this element type is that the adjusted background color and/or image extends to the full width of the email client's view pane. 
+The fullwidth container is the base element of the document. It can only be a direct child of the root, so it can only be placed at the highest level of the document structure. The main feature of this element type is that the adjusted background color and/or image extends to the full width of the email client's view pane.
 
 There is a new feature in the generator, and it's possible to set the full width container's inner fixed width container to a different width (before that the full width container's width property was set to 600px wide). Now it is possible to set every full width block individually (for example: wider than the usual 600px).
 
-```
+```json
 {
 	"root" : {
-		"children" : [ 
+		"children" : [
 			{
 				"type" : "FULLWIDTH_CONTAINER",
 				"background" : {
@@ -19,7 +19,7 @@ There is a new feature in the generator, and it's possible to set the full width
 					"color" : "#60de55"
 				},
 				"width" : 600,
-				"children" : [ 
+				"children" : [
 					...
 				]
 

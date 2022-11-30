@@ -14,7 +14,7 @@ https://api.emailml.com/v1/<YOUR_API_KEY>/email-html
 
 The body of the request should look like this:
 
-```
+```json
 {
 	"apiKey": "<YOUR_API_KEY>",
 	"secret": "<YOUR_API_SECRET>",
@@ -25,7 +25,7 @@ The body of the request should look like this:
 
 The response is a JSON with the following format:
 
-```
+```json
 {
 	"status": 200,
 	"result": "The response HTML as a string."
@@ -44,7 +44,7 @@ For those who want to create their own JSONs, we are working on a detailed JSON 
 
 With the settings object you can change the behavior of the generator. You can find every option's description in the [document-settings folder](https://github.com/EDMdesigner/email-generator-docs/tree/master/document-settings) :
 
-```
+```json
 {
 	"apiKey": "<YOUR_API_KEY>",
 	"secret": "<YOUR_API_SECRET>",
@@ -56,7 +56,8 @@ With the settings object you can change the behavior of the generator. You can f
 		"lineLength": 799,
 		"encodeUrl": true,
 		"lang": "fr",
-		"buttonType": "minimal"
+		"buttonType": "minimal",
+		"forceHexaColors": true,
 	}
 }
 ```
@@ -89,7 +90,7 @@ If you want to learn more about feature toggles, please read [Martin Fowler's ar
 4. We are going to inform you if something behind a feature toggle will become the default behavior
 	- You are going to receive an email beforehand (at least a week) if a feature will turn into the default behavior
 	- And you are going to receive an email beforehand (at least a week) when a feature behind a feature flag will be dropped
-	
+
 ## Compatibility
 
 We are proud that our HTML generator supports the major email clients and also a lot of the less popular ones. We frequently test the output to maintain quality. For the full list of our supported email clients please check [our page about compatibility](https://github.com/EDMdesigner/email-generator-docs/tree/master/compatibility) and if you can't find the email client you are looking for or you experience some issue please do not hesitate to create an issue in [our issue tracking repository](https://github.com/EDMdesigner/email-generator-docs/issues).

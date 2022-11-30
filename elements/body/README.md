@@ -1,52 +1,56 @@
 # Body element (Root element)
 
-Every document starts with this element, as this is the top parent element. In the old JSON format of our editors (EDMdesigner, Chamaileon) it is equal to the `root` element. It contains a children array with a full width container as a child. In the old JSON format of our editors it has no other property out of the children field, but the new generator accept a more logical structure beside the old format too. 
+Every document starts with this element, as this is the top parent element. In the old JSON format of our editors (EDMdesigner, Chamaileon) it is equal to the `root` element. It contains a children array with a full width container as a child. In the old JSON format of our editors it has no other property out of the children field, but the new generator accept a more logical structure beside the old format too.
 The main difference is the background property, that defines the background of the HTML `<body>` tag, is the first property of the body. This property is placed in the generalSettings in the old JSON format.
 
 The old format (the generator will convert it, no manual changing is needed):
-```
-"document" : {
-	"root" : {
-		"children" : [ 
-			...
-		],
-		"type" : "ROOT"
-	}
-	"generalSettings" : {
-		"background" : {
-			"image" : {
-				"src" : "https://example.png",
-				"repeat" : "no-repeat",
-				"position" : "center center"
-			},
-			"color" : "#60de55"
+```json
+{
+	"document" : {
+		"root" : {
+			"children" : [
+				...
+			],
+			"type" : "ROOT"
+		}
+		"generalSettings" : {
+			"background" : {
+				"image" : {
+					"src" : "https://example.png",
+					"repeat" : "no-repeat",
+					"position" : "center center"
+				},
+				"color" : "#60de55"
+			}
 		}
 	}
 }
 ```
 
 
-The new format: 
-```
-"document" : {
-	"body" : {
-		"background" : {
-			"color" : "#60de55",
-			"image" : {
-				"src" : "https://example.png",
-				"repeat" : "both",
-				"position" : "center"
-			}
+The new format:
+```json
+{
+	"document" : {
+		"body" : {
+			"background" : {
+				"color" : "#60de55",
+				"image" : {
+					"src" : "https://example.png",
+					"repeat" : "both",
+					"position" : "center"
+				}
+			},
+			"children": [
+				...
+			]
 		},
-		"children": [
+		"head" : {
 			...
-		]
-	},
-	"head" : {
-		...
-	},
-	"settings" : {
-		...
+		},
+		"settings" : {
+			...
+		}
 	}
 }
 ```

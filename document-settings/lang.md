@@ -8,7 +8,7 @@ You can find more information and the list of the subtags [here](https://www.w3.
 
 Example JSON:
 
-```
+```json
 {
 	"apiKey": "<YOUR_API_KEY>",
 	"secret": "<YOUR_API_SECRET>",

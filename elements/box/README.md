@@ -8,7 +8,7 @@ This wrapper table helps:
 - adds class attributes that take place on the wrapper table on the proper level (`<table>` or `<td>`)
 
 Example JSON:
-```
+```json
 {
     "type":"BOX",
     "hideOnDesktop":false,
@@ -33,7 +33,7 @@ Example JSON:
 Properties | Type | Values | Description
 --- | --- | --- | ---
 hideOnDesktop |  | boolean | If it's set to `true`, the generator adds a class to the box element table to hide the content on desktop
-hideOnMobile |  | boolean | If it's set to `true`, the generator adds a class to the box element table to hide the content on mobile 
+hideOnMobile |  | boolean | If it's set to `true`, the generator adds a class to the box element table to hide the content on mobile
 margin | object | object | [Read more](/property-groups/margin/README.md)
 border | object | object | [Read more](/property-groups/border/README.md)
 padding | object | object | [Read more](/property-groups/padding/README.md)

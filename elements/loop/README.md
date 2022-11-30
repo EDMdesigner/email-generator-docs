@@ -12,7 +12,7 @@ If you are using Liquid: https://shopify.github.io/liquid/tags/iteration/
 
 If you are using Mustache: https://mustache.github.io/mustache.5.html
 
-```
+```json
 {
 	"type" : "LOOP",
 	"expression": "user.orderHistory",

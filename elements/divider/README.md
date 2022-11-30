@@ -2,7 +2,7 @@
 
 The divider is technically an “empty box” which can have the spacing, background, and lineStyle properties. The primary function of this leaf element is to separate the content into smaller logical blocks.
 
-```
+```json
 {
 	"type" : "DIVIDER",
 	"align" : "center",

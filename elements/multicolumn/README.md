@@ -12,37 +12,37 @@ There are new features in the generator, now it is possible to:
 
 The width of the multi-column is set to 100% and extends to the full width of its parent element. The width of the child elements of the columns is calculated from the width of the multi-columns parent elements width.
 
-Keep in mind that: 
+Keep in mind that:
  - the sum of the child elements width (if the column contains an element with padding, margin and/or border width set on, these are count in too) can't exceed the parent elements width, because the last column might break into a new line. It applies to the column spacings too, the sum of the columns and column spacings width can't pass the 100%.
  - too long words in a paragraph might push out the width of the column and it can break the layout.
 
 Example for a valid older JSON version:
 
-```
+```json
 {
 	"type" : "MULTICOLUMN",
 	"hideOnMobile" : false,
 	"hideOnDesktop" : false,
 	"reorderOnMobile": true,
-	"cols" : [ 
+	"cols" : [
 		{
-			"children" : [ 
+			"children" : [
 				...
 			],
 			"hideOnMobile" : false,
 			"lock" : false,
 			"width" : 33.3333333333333
-		}, 
+		},
 		{
-			"children" : [ 
+			"children" : [
 				...
 			],
 			"hideOnMobile" : false,
 			"lock" : false,
 			"width" : 33.3333333333333
-		}, 
+		},
 		{
-			"children" : [ 
+			"children" : [
 				...
 			],
 			"hideOnMobile" : false,
@@ -55,7 +55,7 @@ Example for a valid older JSON version:
 
 Example for a valid newer JSON version:
 
-```
+```json
 {
 	"type": "MULTICOLUMN",
 	"hideOnMobile" : false,
@@ -140,7 +140,7 @@ background | object | object | [Read more](/property-groups/background/README.md
 children.width | number | integer | The JSON contains this value as the width relative t the parent element in percentage value, but the generator creates a pixel value from it. |
 children.height | number | integer | The generator only accepts the height property defined as a number and generates a fixed value from it in pixels. |
 children.column | array |  | This array contains the child elements of one column
-children.width | number | integer | The JSON contains this value as the width relative t the parent element in percentage value, but the generator creates a pixel value from it. | 
+children.width | number | integer | The JSON contains this value as the width relative t the parent element in percentage value, but the generator creates a pixel value from it. |
 children | array |  | The children array may [contain any of our element types](/elements) except the fullwidth element. |
 | children.hideOnMobile |  | boolean | if it's set to `true`, the column won't show on mobile view |
 

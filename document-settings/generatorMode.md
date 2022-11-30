@@ -7,7 +7,7 @@ You can read more about these modes [here](https://add-link) TODO: replace this
 
 Default value:
 
-```
+```json
 {
 	"apiKey": "<YOUR_API_KEY>",
 	"secret": "<YOUR_API_SECRET>",
@@ -23,15 +23,17 @@ Default value:
 
 Div-only
 
-```
+```json
 "settings": {
 	{
 		encodeUrls: true,
-		lang: "en",
+		previewTextHack: false,
 		lineLength: 799,
+		forceHexaColors: true,
 		templatingLanguage: "handlebars",
 		generatorMode: "div-only",
-		previewTextHack: false,
+		lang: "en",
+		useFullwidthMarker: false,
 	}
 }
 ```
@@ -39,18 +41,20 @@ Div-only
 
 
 Classic, Table-desktop, Hybrid
-```
+```json
 "settings": {
 	{
 		vmlBackground: true,
 		rolePresentation: false,
 		encodeUrls: true,
+		previewTextHack: false,
 		lineLength: 799,
-		lang: "en",
 		buttonType: "classic",
+		forceHexaColors: true,
 		templatingLanguage: "handlebars",
 		generatorMode: "table-desktop",
-		previewTextHack: false,
+		lang: "en",
+		useFullwidthMarker: false,
 	}
 }
 ```

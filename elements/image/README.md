@@ -4,7 +4,7 @@ Images are one of the most important design elements of a commercial email, but 
 
 Images are relatively complex elements. Just like boxes, they can have paddings, margins, borders, background color (no background image property, because it would not have a good fallback resolution to set the same image as background, because of the poor client support of the background image), and they can’t have children.
 
-```
+```json
 {
 	"type" : "IMAGE",
 	"align" : "center",

@@ -212,7 +212,6 @@
     },
     "settings": {
         "vmlbackground": true,
-        "typeClasses": true,
         "lineLength": 799,
         "rolePresentation": true
     }

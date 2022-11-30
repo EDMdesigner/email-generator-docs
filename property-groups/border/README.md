@@ -9,7 +9,8 @@ The generator can handle border settings in various types of elements. The borde
  - [image](../../elements/divider/README.md)
  - [button](../../elements/button/README.md)
 
-```
+```json
+{
     "border" : {
         "top" : {
             "color" : "#0E4857",
@@ -32,6 +33,7 @@ The generator can handle border settings in various types of elements. The borde
             "style" : "solid"
         },
         "radius" : 5
+}
 ```
 
 | Properties | Type | Values | Description |

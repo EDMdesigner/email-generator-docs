@@ -12,7 +12,7 @@ Inside the `settings` object you can now place a `buttonType` parameter with the
 
 Example JSON:
 
-```
+```json
 {
 
 	"document: { ... },
