@@ -13,7 +13,6 @@ In the editor and in the preview a placeholder image is going to be shown.
 	},
 	"border" : {
 		...
-		},
 	},
 	"margin" : {
 		...

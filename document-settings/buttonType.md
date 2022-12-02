@@ -15,7 +15,7 @@ Example JSON:
 ```json
 {
 
-	"document: { ... },
+	"document": { ... },
 	"settings": {
 		"buttonType": "classic",
 		...

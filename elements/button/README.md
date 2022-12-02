@@ -22,7 +22,7 @@ Buttons are relatively complex as well. It can have the following box properties
 	"align": "right",
 	"width": 112,
 	"fullWidthOnMobile": true,
-	"text":"<span style="font-family:Tahoma; font-size:16px">Button</span>",
+	"text":"<span style=\"font-family:Tahoma; font-size:16px\">Button</span>",
 	"href":"https://example.com",
 	"sizeType":"FIXED",
 	"typography":{

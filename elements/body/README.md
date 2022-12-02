@@ -12,7 +12,7 @@ The old format (the generator will convert it, no manual changing is needed):
 				...
 			],
 			"type" : "ROOT"
-		}
+		},
 		"generalSettings" : {
 			"background" : {
 				"image" : {

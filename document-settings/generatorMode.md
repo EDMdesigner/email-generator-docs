@@ -11,7 +11,7 @@ Default value:
 {
 	"apiKey": "<YOUR_API_KEY>",
 	"secret": "<YOUR_API_SECRET>",
-	"document: { ... },
+	"document": { ... },
 	"settings": {
 		"generatorMode": "classic",
 		...
@@ -24,16 +24,16 @@ Default value:
 Div-only
 
 ```json
-"settings": {
-	{
-		encodeUrls: true,
-		previewTextHack: false,
-		lineLength: 799,
-		forceHexaColors: true,
-		templatingLanguage: "handlebars",
-		generatorMode: "div-only",
-		lang: "en",
-		useFullwidthMarker: false,
+{
+	"settings": {
+		"encodeUrls": true,
+		"previewTextHack": false,
+		"lineLength": 799,
+		"forceHexaColors": true,
+		"templatingLanguage": "handlebars",
+		"generatorMode": "div-only",
+		"lang": "en",
+		"useFullwidthMarker": false,
 	}
 }
 ```
@@ -42,19 +42,19 @@ Div-only
 
 Classic, Table-desktop, Hybrid
 ```json
-"settings": {
-	{
-		vmlBackground: true,
-		rolePresentation: false,
-		encodeUrls: true,
-		previewTextHack: false,
-		lineLength: 799,
-		buttonType: "classic",
-		forceHexaColors: true,
-		templatingLanguage: "handlebars",
-		generatorMode: "table-desktop",
-		lang: "en",
-		useFullwidthMarker: false,
+{
+	"settings": {
+		"vmlBackground": true,
+		"rolePresentation": false,
+		"encodeUrls": true,
+		"previewTextHack": false,
+		"lineLength": 799,
+		"buttonType": "classic",
+		"forceHexaColors": true,
+		"templatingLanguage": "handlebars",
+		"generatorMode": "table-desktop",
+		"lang": "en",
+		"useFullwidthMarker": false,
 	}
 }
 ```

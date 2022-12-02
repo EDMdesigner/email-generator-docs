@@ -19,7 +19,7 @@ Example JSON:
 {
     "color":"#60DE55",
     "image":{
-        "src":"https://examples/example.png"
+        "src":"https://examples/example.png",
         "repeat":"no-repeat",
         "position":"center center"
     }

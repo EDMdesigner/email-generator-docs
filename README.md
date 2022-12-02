@@ -18,7 +18,7 @@ The body of the request should look like this:
 {
 	"apiKey": "<YOUR_API_KEY>",
 	"secret": "<YOUR_API_SECRET>",
-	"document: { ... },
+	"document": { ... },
 	"settings": { ... }
 }
 ```
@@ -48,7 +48,7 @@ With the settings object you can change the behavior of the generator. You can f
 {
 	"apiKey": "<YOUR_API_KEY>",
 	"secret": "<YOUR_API_SECRET>",
-	"document: { ... },
+	"document": { ... },
 	"settings": {
 		"generatorMode": "classic",
 		"vmlBackground": true,

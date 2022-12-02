@@ -19,7 +19,7 @@ The divider is technically an “empty box” which can have the spacing, backgr
 	},
 	"width" : 100,
 	"transparent" : false,
-	"lastDividerColor" : null
+	"lastDividerColor" : null,
 	"background" : {
 		...
 	},

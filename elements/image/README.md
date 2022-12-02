@@ -13,7 +13,6 @@ Images are relatively complex elements. Just like boxes, they can have paddings,
 	},
 	"border" : {
 		...
-		},
 	},
 	"margin" : {
 		...

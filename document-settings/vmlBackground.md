@@ -14,7 +14,7 @@ The default setting is:
 {
 	"apiKey": "<YOUR_API_KEY>",
 	"secret": "<YOUR_API_SECRET>",
-	"document: { ... },
+	"document": { ... },
 	"settings": {
 		"vmlBackground": true,
 		...

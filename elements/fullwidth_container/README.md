@@ -21,8 +21,7 @@ There is a new feature in the generator, and it's possible to set the full width
 				"width" : 600,
 				"children" : [
 					...
-				]
-
+				],
 				"hideOnMobile" : false,
 				"customData" : {},
 				"hideOnDesktop" : false
@@ -48,8 +47,10 @@ However, here is a short explanation of this format:
 
 "A fullwidth container can have 1 cell, or one left cell and one right cell that are divided in the middle. The cells can have their own background color. The elem can be set “left to right” or “right to left”. In case of “left to right” setting the left cells will be ordered on the top if there is not enough room for both in the same line. In case of “right to left” the right cell will do the same. If the element is set to have 1 cell, the order property determines that which cell is displayed. The content of the invisible visible cell is going be stored so it will never be lost, only it's not displayed."
 
-```
+```json
+{
 	"twoCell" : false,
 	"isLeftHigher" : true,
 	"order" : "LTR",
+}
 ```

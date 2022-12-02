@@ -19,7 +19,7 @@ Example JSON:
 {
 	"apiKey": "<YOUR_API_KEY>",
 	"secret": "<YOUR_API_SECRET>",
-	"document: { ... },
+	"document": { ... },
 	"settings": {
 		"encodeUrls": true,
 		...
