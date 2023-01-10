@@ -23,7 +23,8 @@ The generator puts the data defined by you in both formats, the JSON-LD is place
 
 Example JSON:
 
-```
+```json
+{
 	"document": {
 		"body": {
 			...
@@ -43,6 +44,7 @@ Example JSON:
 			}
 		}
 	}
+}
 ```
 
 Properties | Type | Values | Description

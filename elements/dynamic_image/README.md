@@ -4,7 +4,7 @@ Dynamic images are the same as images in the output HTML, the difference is that
 You can set the width and the height to any value, but you have to make sure that you will use images with the same dimensions.
 In the editor and in the preview a placeholder image is going to be shown.
 
-```
+```json
 {
 	"type" : "IMAGE",
 	"align" : "center",
@@ -13,7 +13,6 @@ In the editor and in the preview a placeholder image is going to be shown.
 	},
 	"border" : {
 		...
-		},
 	},
 	"margin" : {
 		...

@@ -8,18 +8,20 @@ To get more information about how the generator handles the padding on different
 
 
 Example JSON:
-```
+```json
+{
     "padding":{
         "top":10,
         "right":15,
         "bottom":20,
         "left":15
     }
+}
 ```
 
 Properties | Type | Values | Description
 --- | --- | --- | ---
-padding | object | object | 
+padding | object | object |
 padding.top | number | integer |[Read about the list of values](https://developer.mozilla.org/en-US/docs/Web/CSS/padding-top)
 padding.right | number | integer |[Read about the list of values](https://developer.mozilla.org/en-US/docs/Web/CSS/padding-right)
 padding.bottom| number | integer |[Read about the list of values](https://developer.mozilla.org/en-US/docs/Web/CSS/padding-bottom)

@@ -4,11 +4,11 @@ You can use this to add white space after the provided preview text. It's useful
 
 Default value:
 
-```
+```json
 {
 	"apiKey": "<YOUR_API_KEY>",
 	"secret": "<YOUR_API_SECRET>",
-	"document: { ... },
+	"document": { ... },
 	"settings": {
 		"previewTextHack": false,
 		...

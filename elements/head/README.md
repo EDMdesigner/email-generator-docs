@@ -12,7 +12,7 @@ Be aware that not every email client supports web fonts and custom fonts, always
 [Read more on typography](../text/README.md)
 
 Example for the new format:
-```
+```json
 {
 	"head": {
 		"fonts": [

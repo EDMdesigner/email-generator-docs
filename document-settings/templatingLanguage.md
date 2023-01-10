@@ -18,11 +18,11 @@ If you are using Mailchimp: https://mailchimp.com/help/use-conditional-merge-tag
 *Note: Mailchimp has no loop merge tag so we're using handlebars as a fallback for it*
 
 Default value:
-```
+```json
 {
 	"apiKey": "<YOUR_API_KEY>",
 	"secret": "<YOUR_API_SECRET>",
-	"document: { ... },
+	"document": { ... },
 	"settings": {
 		"templatingLanguage": "handlebars",
 		...

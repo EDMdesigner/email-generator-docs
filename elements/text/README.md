@@ -8,18 +8,18 @@ The generator has a built in fallback font stack for word based Outlooks, becaus
 
 There is a new feature in the generator, it is possible to add a background image directly to the `text` element. The generator places the text inside a wrapper table and the background settings are applied on that table.
 
-```
+```json
 {
 	"type": "TEXT",
-	"text": "<p><span style="font-size:18px;">example text</span></p><p>&nbsp;</p>",
-	"background":{ 
-		"image":{ 
+	"text": "<p><span style=\"font-size:18px;\">example text</span></p><p>&nbsp;</p>",
+	"background":{
+		"image":{
 			"src":"http://example.jpg",
 			"repeat":"no-repeat",
 			"position":"center center"
 		},
 		"color":"#60de55"
-	},	
+	},
 	"typography": {
 		"h1": {
 			"family": "arial",
@@ -112,8 +112,8 @@ typography.text.weight | string | normal, bold | set the weight for the text ele
 typography.text.style | string | normal, italic | set the style for the text element font
 typography.link | object | object | specifies the links styles for those `<a>` tags that have no inline styling
 typography.link.color | string | hex code | set the color of the linked text
-typography.link.underline |  | boolean | if it's set to `true`, the linked text will be underlined to indicate that part of the text is a hyperlink 
-typography.spacing | object | object | set the spacing around the text content 
+typography.link.underline |  | boolean | if it's set to `true`, the linked text will be underlined to indicate that part of the text is a hyperlink
+typography.spacing | object | object | set the spacing around the text content
 typography.spacing.top | number | integer | set the spacing on the top of the text content
 
 *= h1-h6

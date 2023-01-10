@@ -10,16 +10,16 @@ The generator can handle background settings in various types of elements. The b
  - [body](../../elements/body/README.md)
  - [text](../../elements/text/README.md)
  - [multi-column](../../elements/multicolumn/README.md)
- 
+
 Between the generator settings there is an option that can set the generator to create the definition of the background in Vector Markup Language too. This block of code is only necessary for Outlooks on Windows.
 [Read more on VML background usage](../../generator-settings/VMLbackground.md)
 
 Example JSON:
-```
+```json
 {
     "color":"#60DE55",
     "image":{
-        "src":"https://examples/example.png"
+        "src":"https://examples/example.png",
         "repeat":"no-repeat",
         "position":"center center"
     }

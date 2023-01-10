@@ -7,11 +7,11 @@ You can read more about these modes [here](https://add-link) TODO: replace this
 
 Default value:
 
-```
+```json
 {
 	"apiKey": "<YOUR_API_KEY>",
 	"secret": "<YOUR_API_SECRET>",
-	"document: { ... },
+	"document": { ... },
 	"settings": {
 		"generatorMode": "classic",
 		...
@@ -23,15 +23,17 @@ Default value:
 
 Div-only
 
-```
-"settings": {
-	{
-		encodeUrls: true,
-		lang: "en",
-		lineLength: 799,
-		templatingLanguage: "handlebars",
-		generatorMode: "div-only",
-		previewTextHack: false,
+```json
+{
+	"settings": {
+		"encodeUrls": true,
+		"previewTextHack": false,
+		"lineLength": 799,
+		"forceHexaColors": true,
+		"templatingLanguage": "handlebars",
+		"generatorMode": "div-only",
+		"lang": "en",
+		"useFullwidthMarker": false,
 	}
 }
 ```
@@ -39,18 +41,20 @@ Div-only
 
 
 Classic, Table-desktop, Hybrid
-```
-"settings": {
-	{
-		vmlBackground: true,
-		rolePresentation: false,
-		encodeUrls: true,
-		lineLength: 799,
-		lang: "en",
-		buttonType: "classic",
-		templatingLanguage: "handlebars",
-		generatorMode: "table-desktop",
-		previewTextHack: false,
+```json
+{
+	"settings": {
+		"vmlBackground": true,
+		"rolePresentation": false,
+		"encodeUrls": true,
+		"previewTextHack": false,
+		"lineLength": 799,
+		"buttonType": "classic",
+		"forceHexaColors": true,
+		"templatingLanguage": "handlebars",
+		"generatorMode": "table-desktop",
+		"lang": "en",
+		"useFullwidthMarker": false,
 	}
 }
 ```

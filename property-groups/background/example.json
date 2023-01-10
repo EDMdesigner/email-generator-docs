@@ -133,7 +133,7 @@
                 "order":"LTR",
                 "hideOnMobile":false,
                 "customData":{
-  
+
                 },
                 "hideOnDesktop":false
               }
@@ -144,7 +144,7 @@
           "header":null,
           "footer":null,
           "usedColors":[
-  
+
           ],
           "generalSettings":{
             "background":{
@@ -159,7 +159,6 @@
         },
     "settings": {
         "vmlbackground": true,
-        "typeClasses": true,
         "lineLength": 799,
         "rolePresentation": true
     }

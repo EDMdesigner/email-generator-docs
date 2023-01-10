@@ -5,13 +5,15 @@ By definition margins create an extra space around an element. Because margins -
 Even though in the JSON file the values of the margin are stored called as `margin`, it's interpreted a bit different. If a [box](/elements/box/README.md) element has margin values as well, the generator wraps the whole element in an another wrapper table and applies the values as padding. This method makes it possible to avoid possible issues that effect the usage of margins.
 
 Example JSON:
-```
+```json
+{
     "margin":{
         "top":10,
         "right":15,
         "bottom":20,
         "left":15
     }
+}
 ```
 
 Properties | Type | Values | Description

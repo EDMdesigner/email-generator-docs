@@ -15,13 +15,13 @@ Inside the settings object you can now place a `encodeUrl`'s parameter either of
 
 Example JSON:
 
-```
+```json
 {
 	"apiKey": "<YOUR_API_KEY>",
 	"secret": "<YOUR_API_SECRET>",
-	"document: { ... },
+	"document": { ... },
 	"settings": {
-		"encodeUrl": true,
+		"encodeUrls": true,
 		...
 	}
 }

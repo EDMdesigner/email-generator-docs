@@ -10,11 +10,11 @@ Inside the settings object you can now place a vmlBackground parameter either of
 
 The default setting is:
 
-```
+```json
 {
 	"apiKey": "<YOUR_API_KEY>",
 	"secret": "<YOUR_API_SECRET>",
-	"document: { ... },
+	"document": { ... },
 	"settings": {
 		"vmlBackground": true,
 		...
