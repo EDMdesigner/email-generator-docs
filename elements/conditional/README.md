@@ -12,6 +12,10 @@ If you are using Liquid: https://shopify.github.io/liquid/tags/control-flow/
 
 If you are using Mustache: https://mustache.github.io/mustache.5.html
 
+If you are using Mailchimp: https://mailchimp.com/help/use-conditional-merge-tag-blocks/
+
+If you are using Adobe Campaign Classic (acc): https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/conditional-content.html?lang=en
+
 ```json
 {
 	"type" : "CONDITIONAL",
